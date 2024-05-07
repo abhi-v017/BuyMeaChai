@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <div className="min-h-[80vh]">
+        <div className="min-h-[88vh]  [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
           {children}
         </div>
         <Footer />
