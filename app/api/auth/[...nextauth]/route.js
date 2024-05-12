@@ -14,5 +14,6 @@ export const authoptions = NextAuth({
       }),
       // ...add more providers here
     ],
+   
   })
-export {authoptions as GET, authoptions as POST}  
+export { authoptions as GET, authoptions as POST }  

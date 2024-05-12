@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <SessionWrapper>
           <Navbar />
-          <div className="min-h-[88vh]  [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
+          <div className="min-h-[88.7vh]  [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] text-white">
             {children}
           </div>
           <Footer />
