@@ -31,10 +31,10 @@ const navbar = () => {
             <div id="dropdown" className={`z-10 ${showdropdown ? "" : "hidden"} absolute left-2  bg-white divide-y divide-gray-100 rounded-lg shadow w-52 dark:bg-transparent`}>
               <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
-                  <Link href={"/profile"} className="block px-4 py-2 bg-gray-900 border-2 border-purple-600 hover:bg-purple-500 rounded-lg shadow-md">Dashboard</Link>
+                  <Link href={"/dashboard"} className="block px-4 py-2 bg-gray-900 border-2 border-purple-600 hover:bg-purple-500 rounded-lg shadow-md">Dashboard</Link>
                 </li>
                 <li>
-                  <Link href="#" className="block px-4 py-2 bg-gray-900 border-2 border-purple-600 hover:bg-purple-500 rounded-lg shadow-md">Your Page</Link>
+                  <Link href={"/username"} className="block px-4 py-2 bg-gray-900 border-2 border-purple-600 hover:bg-purple-500 rounded-lg shadow-md">Your Page</Link>
                 </li>
                 <li>
                   <Link href="#" onClick={() => { signOut() }} className="block px-4 py-2 bg-gray-900 border-2 border-purple-600 hover:bg-purple-500 rounded-lg shadow-md">Sign out</Link>
