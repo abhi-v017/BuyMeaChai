@@ -37,7 +37,7 @@ export default function Home() {
       <div className="bg-blue-200 opacity-20 h-1"></div>
       <div className="mx-auto text-white container pb-32 pt-14 flex justify-center items-center flex-col">
         <h2 className=" font-bold my-4 text-3xl text-center">learn more about us</h2>
-        <iframe width="500" height="280" src="https://www.youtube.com/embed/L_RdRkOJie8?si=IUVuHn22z2aEQr2n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="500" height="280" src="https://www.youtube.com/embed/L_RdRkOJie8?si=IUVuHn22z2aEQr2n" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       </div>
 
     </>

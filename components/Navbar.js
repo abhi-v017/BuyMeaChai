@@ -34,7 +34,7 @@ const navbar = () => {
                   <Link href={"/dashboard"} className="block px-4 py-2 bg-gray-900 border-2 border-purple-600 hover:bg-purple-500 rounded-lg shadow-md">Dashboard</Link>
                 </li>
                 <li>
-                  <Link href={"/username"} className="block px-4 py-2 bg-gray-900 border-2 border-purple-600 hover:bg-purple-500 rounded-lg shadow-md">Your Page</Link>
+                  <Link href={`/${session.user.name}`} className="block px-4 py-2 bg-gray-900 border-2 border-purple-600 hover:bg-purple-500 rounded-lg shadow-md">Your Page</Link>
                 </li>
                 <li>
                   <Link href="#" onClick={() => { signOut() }} className="block px-4 py-2 bg-gray-900 border-2 border-purple-600 hover:bg-purple-500 rounded-lg shadow-md">Sign out</Link>
